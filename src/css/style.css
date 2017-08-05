@@ -1,0 +1,19 @@
+**** CSS ****/
+/*RESET CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 1em;
+}
+
+form{
+  display: inline;
+}
+
+input{
+  border: 0;
+  font-family: serif;
+  outline: none;
+}

@@ -1,0 +1,31 @@
+{
+  "name": "new_website",
+  "version": "0.1.0",
+  "description": "New version of my personal website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabil-g/new_website.git"
+  },
+  "keywords": [
+    "dev",
+    "webdev",
+    "web",
+    "code",
+    "programming",
+    "html",
+    "css",
+    "js",
+    "php",
+    "junior"
+  ],
+  "author": "Nabil Ghedjati",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nabil-g/new_website/issues"
+  },
+  "homepage": "https://github.com/nabil-g/new_website#readme"
+}
