@@ -1,12 +1,56 @@
-**** CSS ****/
+/**** CSS ****/
 /*RESET CSS*/
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 1em;
+    font-family: 'Inconsolata', cursive;
+    text-shadow: 0 0 2px black;
 }
+
+body{
+  background: url('../assets/mountains.jpg') no-repeat fixed;
+  background-size: cover;
+  /*background-position: 50% 10%;*/
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.1);
+  font-size: 1em;
+}
+
+#mainLink{
+  font-family: 'Satisfy';
+  text-decoration: none;
+  color: p;
+}
+
+main{
+  display: none;
+  height: 80%;
+  width: 80%;
+  overflow: hidden;
+}
+
+main:before{
+  position: absolute;
+  content: '';
+  background: url('../assets/mountains.jpg') no-repeat fixed;
+  background-size: cover;
+  /*background-position: 50% 10%;*/
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  filter: blur(5px);
+  z-index: -1;
+}
+
 
 form{
   display: inline;
@@ -14,6 +58,12 @@ form{
 
 input{
   border: 0;
-  font-family: serif;
   outline: none;
+  font-size: 1em;
+  color: white;
+  background-color: transparent;
+}
+
+.prompt{
+  display: none;
 }

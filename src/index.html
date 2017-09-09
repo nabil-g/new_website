@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>Site de Nabil Ghedjati</title>
 		<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="lib/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="lib/font-awesome-4.7.0/css/font-awesome.min.css">
 		<link rel="icon" type="image/png" href="assets/favicon.png">
 		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 		<!-- build:css  css/styles.min.css -->
@@ -17,6 +18,10 @@
   <body>
     <main>
       <div class="terminal"></div>
+      <form class='prompt' id='mainPrompt'>~$  <input id="mainPromptField" type='text' autocomplete="off"></form>
+      <form class='prompt' id='namePrompt'>~$  <input id="namePromptField" type='text'></form>
+      <form class='prompt' id='mailPrompt'>~$  <input id="mailPromptField" type='text'></form>
+      <form class='prompt' id='msgPrompt'>~$  <input id="msgPromptField" type='text'></form>
     </main>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -26,6 +31,7 @@
     <script src="lib/googleanalytics.js"></script>
 
 <!-- build:js js/main.min.js-->
+    <script type="text/javascript" src="js/translations.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
 <!-- endbuild -->
 
